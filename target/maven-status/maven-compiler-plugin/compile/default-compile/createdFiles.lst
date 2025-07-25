@@ -1,0 +1,9 @@
+org/apache/log4j/Log4jToLog4RichConfigTranslator.class
+org/apache/log4j/PropertyConfigurator.class
+org/apache/log4j/demo/Log4jCompatibilityDemo.class
+org/apache/log4j/LogManager.class
+org/apache/log4j/Category.class
+org/apache/log4j/Logger.class
+org/apache/log4j/Logger$1.class
+org/apache/log4j/Level.class
+org/apache/log4j/Priority.class

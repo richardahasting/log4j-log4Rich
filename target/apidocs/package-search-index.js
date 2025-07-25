@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.apache.log4j"},{"l":"org.apache.log4j.demo"}];updateSearchResults();
