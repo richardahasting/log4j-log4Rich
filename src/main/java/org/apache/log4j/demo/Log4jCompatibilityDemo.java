@@ -16,9 +16,9 @@ public class Log4jCompatibilityDemo {
     private static final Logger logger = Logger.getLogger(Log4jCompatibilityDemo.class);
     
     public static void main(String[] args) {
-        System.out.println("=".repeat(60));
+        System.out.println(repeatString("=", 60));
         System.out.println("log4j-log4Rich Compatibility Demonstration");
-        System.out.println("=".repeat(60));
+        System.out.println(repeatString("=", 60));
         System.out.println("This demo shows log4j 1.x code running unchanged");
         System.out.println("with log4Rich's ultra-high-performance backend!");
         System.out.println();
@@ -33,11 +33,11 @@ public class Log4jCompatibilityDemo {
         demonstrateGenericLogging();
         
         System.out.println();
-        System.out.println("=".repeat(60));
+        System.out.println(repeatString("=", 60));
         System.out.println("All log4j patterns work perfectly!");
         System.out.println("Your application gets log4Rich performance");
         System.out.println("with ZERO code changes required!");
-        System.out.println("=".repeat(60));
+        System.out.println(repeatString("=", 60));
     }
     
     private static void demonstrateBasicLogging() {
@@ -162,5 +162,13 @@ public class Log4jCompatibilityDemo {
     
     private static String gatherDebugInfo() {
         return "debug_info_" + Thread.currentThread().getName();
+    }
+    
+    private static String repeatString(String str, int count) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < count; i++) {
+            sb.append(str);
+        }
+        return sb.toString();
     }
 }

@@ -7,7 +7,7 @@
 
     <groupId>com.log4rich</groupId>
     <artifactId>log4j-log4Rich</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>log4j-log4Rich</name>
@@ -22,11 +22,19 @@
         </license>
     </licenses>
 
+    <repositories>
+        <repository>
+            <id>local-repo</id>
+            <name>Local Repository</name>
+            <url>file://${user.home}/local-maven-repo</url>
+        </repository>
+    </repositories>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <log4rich.version>1.0.4</log4rich.version>
+        <log4rich.version>1.0.5</log4rich.version>
         <junit.version>5.10.0</junit.version>
     </properties>
 

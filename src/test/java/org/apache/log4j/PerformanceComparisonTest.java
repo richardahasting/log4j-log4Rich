@@ -168,9 +168,9 @@ public class PerformanceComparisonTest {
     
     @Test
     public void performanceReport() {
-        System.out.println("\n" + "=".repeat(60));
+        System.out.println("\n" + repeatString("=", 60));
         System.out.println("log4j-log4Rich Performance Summary");
-        System.out.println("=".repeat(60));
+        System.out.println(repeatString("=", 60));
         System.out.println("This compatibility layer provides log4j 1.x API");
         System.out.println("with log4Rich's ultra-high-performance backend:");
         System.out.println();
@@ -183,6 +183,14 @@ public class PerformanceComparisonTest {
         System.out.println("✅ Zero-allocation mode available");
         System.out.println();
         System.out.println("Run these tests to see the performance in action!");
-        System.out.println("=".repeat(60));
+        System.out.println(repeatString("=", 60));
+    }
+    
+    private static String repeatString(String str, int count) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < count; i++) {
+            sb.append(str);
+        }
+        return sb.toString();
     }
 }
