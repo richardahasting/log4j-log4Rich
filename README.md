@@ -60,7 +60,7 @@ Recent comprehensive testing demonstrates exceptional performance improvements:
 <dependency>
     <groupId>com.log4rich</groupId>
     <artifactId>log4j-log4Rich</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -173,7 +173,7 @@ LogManager.shutdown();
 <dependency>
     <groupId>com.log4rich</groupId>
     <artifactId>log4j-log4Rich</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 
 <!-- Exclude conflicting log4j from other dependencies -->
@@ -196,7 +196,7 @@ LogManager.shutdown();
 #### Gradle
 ```groovy
 // Groovy DSL
-implementation 'com.log4rich:log4j-log4Rich:1.0.0'
+implementation 'com.log4rich:log4j-log4Rich:1.0.1'
 
 // Exclude conflicting log4j from all dependencies
 configurations {
@@ -209,7 +209,7 @@ configurations {
 
 ```kotlin
 // Kotlin DSL
-implementation("com.log4rich:log4j-log4Rich:1.0.0")
+implementation("com.log4rich:log4j-log4Rich:1.0.1")
 
 // Exclude conflicting log4j from all dependencies
 configurations {
@@ -226,7 +226,7 @@ configurations {
 rm lib/log4j-1.2.17.jar
 
 # Add new JAR
-cp log4j-log4Rich-1.0.0.jar lib/
+cp log4j-log4Rich-1.0.1.jar lib/
 ```
 
 ## 🔍 What's Included
