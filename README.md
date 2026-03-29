@@ -345,7 +345,7 @@ A: Enable batch processing and async compression for maximum performance.
 ## 🔗 Related Projects
 
 ### Core Logging Framework
-This bridge depends on **[log4Rich](https://github.com/user/log4Rich)** - the ultra-high-performance Java logging framework:
+This bridge depends on **[log4Rich](https://github.com/richardahasting/log4Rich)** - the ultra-high-performance Java logging framework:
 
 ```xml
 <!-- Maven -->
@@ -364,7 +364,7 @@ implementation 'com.log4rich:log4Rich:1.0.4'
 **Features**: Memory-mapped I/O, batch processing, JSON logging, asynchronous compression, 2.3M+ messages/second
 
 ### Modern log4j2 Bridge
-For applications using log4j2 or SLF4J, use **[log4j2-log4Rich](https://github.com/user/log4j2-log4Rich)**:
+For applications using log4j2 or SLF4J, use **[log4j2-log4Rich](https://github.com/richardahasting/log4j2-log4Rich)**:
 
 ```xml
 <!-- Maven -->
